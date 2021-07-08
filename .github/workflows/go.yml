@@ -17,6 +17,9 @@ jobs:
       uses: actions/setup-go@v2
       with:
         go-version: 1.16
+        
+     - name: d
+      run: go mod init
 
     - name: Build
       run: go build -v ./...
