@@ -18,7 +18,7 @@ jobs:
       with:
         go-version: 1.16
         
-     - name: d
+    - name: d
       run: go mod init
 
     - name: Build
